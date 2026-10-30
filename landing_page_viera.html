@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viera - Solusi Digital Modern</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        modernBlue: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae2fd',
+                            500: '#38bdf8',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-modernBlue-50 text-modernBlue-900 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- NAVBAR -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-modernBlue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold tracking-tight text-modernBlue-800">VIERA<span class="text-modernBlue-600">.</span></span>
+                </div>
+                
+                <!-- Menu Utama -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-modernBlue-600 hover:text-modernBlue-900 font-medium transition-colors">Fitur</a>
+                    <a href="#" class="text-modernBlue-600 hover:text-modernBlue-900 font-medium transition-colors">Solusi</a>
+                    <a href="#" class="text-modernBlue-600 hover:text-modernBlue-900 font-medium transition-colors">Harga</a>
+                    <a href="#" class="text-modernBlue-600 hover:text-modernBlue-900 font-medium transition-colors">Tentang Kami</a>
+                </nav>
+
+                <!-- Tombol Login -->
+                <div class="flex items-center">
+                    <a href="#" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-modernBlue-700 hover:bg-modernBlue-800 shadow-sm transition-all">
+                        Masuk
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main class="flex-grow flex items-center bg-gradient-to-b from-white to-modernBlue-100/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 text-center">
+            <!-- Badge Info -->
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-modernBlue-200/50 text-modernBlue-800 mb-6">
+                ✨ Memperkenalkan Viera Versi Terbaru
+            </span>
+            
+            <!-- Judul Besar -->
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-modernBlue-900 max-w-4xl mx-auto leading-tight">
+                Transformasi Produktivitas Kerja Anda Bersama <span class="text-modernBlue-700">Viera</span>
+            </h1>
+            
+            <!-- Sub-teks -->
+            <p class="mt-6 text-lg sm:text-xl text-modernBlue-600 max-w-2xl mx-auto leading-relaxed">
+                Kelola proyek, kolaborasi tim, dan pantau perkembangan bisnis Anda dalam satu platform modern yang ringkas, cepat, dan aman.
+            </p>
+            
+            <!-- Dua Tombol Aksi (CTA) -->
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-modernBlue-700 hover:bg-modernBlue-800 shadow-lg shadow-modernBlue-700/20 transition-all">
+                    Mulai Gratis
+                </a>
+                <a href="#" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-modernBlue-200 text-base font-medium rounded-xl text-modernBlue-700 bg-white hover:bg-modernBlue-50 shadow-sm transition-all">
+                    Pelajari Fitur
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-modernBlue-900 text-modernBlue-200 border-t border-modernBlue-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between text-sm">
+            <!-- Hak Cipta -->
+            <p class="text-center sm:text-left text-modernBlue-200/70">
+                &copy; 2026 Viera Inc. Hak Cipta Dilindungi Undang-Undang.
+            </p>
+            <!-- Link Tambahan -->
+            <div class="flex space-x-6 mt-4 sm:mt-0 justify-center">
+                <a href="#" class="hover:text-white transition-colors">Privasi</a>
+                <a href="#" class="hover:text-white transition-colors">Ketentuan</a>
+                <a href="#" class="hover:text-white transition-colors">Kontak</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
